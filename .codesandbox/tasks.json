@@ -30,7 +30,10 @@
     "preview": {
       "name": "preview",
       "command": "npm run preview",
-      "runAtStart": false
+      "runAtStart": false,
+      "preview": {
+        "port": 3000
+      }
     }
   }
 }
